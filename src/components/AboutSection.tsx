@@ -1,6 +1,6 @@
 import { useLanguage } from "@/context/LanguageContext";
 import { motion } from "framer-motion";
-import heroAsset from "@/assets/origen.png";
+import heroAsset from "@/assets/origen.png.asset.json";
 const heroImg = heroAsset.url;
 
 const AboutSection = () => {
