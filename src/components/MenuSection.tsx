@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { toast } from "sonner";
 import biteAsset from "@/assets/tortilla-bite.png";
 
-const biteImg = biteAsset.url;
+const biteImg = biteAsset;
 
 const MenuSection = () => {
   const { t, lang } = useLanguage();
