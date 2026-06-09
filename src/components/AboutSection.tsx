@@ -1,7 +1,7 @@
 import { useLanguage } from "@/context/LanguageContext";
 import { motion } from "framer-motion";
 import heroAsset from "@/assets/origen.png";
-const heroImg = heroAsset.url;
+const heroImg = heroAsset;
 
 const AboutSection = () => {
   const { t } = useLanguage();
