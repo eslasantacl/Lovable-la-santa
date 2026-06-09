@@ -2,7 +2,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import { useCart } from "@/context/CartContext";
 import { motion } from "framer-motion";
 import { toast } from "sonner";
-import biteAsset from "@/assets/tortilla-bite.png";
+import biteAsset from "@/assets/tortilla-bite.png.asset.json";
 
 const biteImg = biteAsset.url;
 
