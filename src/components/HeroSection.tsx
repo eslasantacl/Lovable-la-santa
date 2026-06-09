@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <img
-        src={heroAsset.url}
+        src={heroAsset}
         alt={t("alt.hero")}
         aria-hidden="true"
         className="absolute inset-0 w-full h-full object-cover object-center scale-100 blur-2xl opacity-80 md:hidden"
