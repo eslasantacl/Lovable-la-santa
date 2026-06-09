@@ -71,7 +71,7 @@ const MenuSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
-            className="relative overflow-hidden aspect-square rounded-full"
+            className="relative overflow-hidden aspect-square md:scale-110"
           >
             <img
               src={biteImg}
