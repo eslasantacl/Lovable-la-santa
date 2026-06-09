@@ -1,6 +1,6 @@
 import { useLanguage } from "@/context/LanguageContext";
 import { motion } from "framer-motion";
-import heroAsset from "@/assets/hero-tortilla.png.asset.json";
+import heroAsset from "@/assets/hero-tortilla.png";
 import logoWhite from "@/assets/logo-white.png";
 
 const HeroSection = () => {
