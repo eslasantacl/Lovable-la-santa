@@ -13,11 +13,6 @@ const HeroSection = () => {
         alt={t("alt.hero")}
         aria-hidden="true"
         className="absolute inset-0 w-full h-full object-cover object-center scale-100 blur-2xl opacity-80 md:hidden"
-      />
-      <img
-        src={heroAsset}
-        alt={t("alt.hero")}
-        className="absolute inset-0 w-full h-full object-contain md:object-cover object-center scale-95 md:scale-100"
         width={1920}
         height={1080}
       />
