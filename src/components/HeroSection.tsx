@@ -12,7 +12,7 @@ const HeroSection = () => {
         src={heroAsset}
         alt={t("alt.hero")}
         aria-hidden="true"
-        className="absolute inset-0 w-full h-full object-cover object-center scale-110 blur-2xl opacity-80 md:hidden"
+        className="absolute inset-0 w-full h-full object-cover object-center scale-115 blur-2xl opacity-80 md:hidden"
               />
       <img
         src={heroAsset}
