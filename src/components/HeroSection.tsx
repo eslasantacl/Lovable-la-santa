@@ -15,7 +15,7 @@ const HeroSection = () => {
         className="absolute inset-0 w-full h-full object-cover object-center scale-100 blur-2xl opacity-80 md:hidden"
       />
       <img
-        src={heroAsset.url}
+        src={heroAsset}
         alt={t("alt.hero")}
         className="absolute inset-0 w-full h-full object-contain md:object-cover object-center scale-95 md:scale-95"
         width={1920}
