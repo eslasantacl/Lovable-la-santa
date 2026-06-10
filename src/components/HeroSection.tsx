@@ -17,7 +17,7 @@ const HeroSection = () => {
       <img
         src={heroAsset}
         alt={t("alt.hero")}
-        className="absolute inset-0 w-full h-full object-contain md:object-cover object-center scale-95 md:scale-95"
+        className="absolute inset-0 w-full h-full object-contain md:object-cover object-center scale-95 md:scale-100"
         width={1920}
         height={1080}
       />
